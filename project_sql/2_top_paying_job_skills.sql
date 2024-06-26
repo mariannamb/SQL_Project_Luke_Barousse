@@ -59,3 +59,32 @@ WHERE
     job_postings_fact.job_id = 226942
 
 -- This query proved my theory to be true since using a left join showed a null value for the skills column
+
+
+/*
+Here's the frequency of each skill mentioned in the job postings:
+Python: 14
+SQL: 11
+Tableau: 7
+Spark: 7
+AWS: 6
+PyTorch: 5
+TensorFlow: 5
+Hadoop: 4
+R: 4
+Java: 4
+Azure: 3
+Scikit-learn: 3
+Scala: 2
+Power BI: 2
+Qlik: 2
+Databricks: 2
+SAS: 2
+Kubernetes: 2
+Pandas: 2
+NumPy: 2
+GCP: 2
+Cassandra: 2
+BigQuery: 2
+Other skills (listed only once): PySpark, GDPR, Looker, Jupyter, OpenCV, Docker, Excel, NoSQL, Airflow, Snowflake, Oracle, Redshift, MATLAB, C, DataRobot, Keras, PowerPoint
+*/
